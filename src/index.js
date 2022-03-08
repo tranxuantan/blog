@@ -18,15 +18,15 @@ app.engine('hbs', engine({
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'resources/views'));
 
-app.get('/', (req, res) => {
-  res.redirect('/blog');
-})
+// app.get('/', (req, res) => {
+//   res.redirect('/blog');
+// })
 
-app.get('/blog', (req, res) => {
+app.get('/', (req, res) => {
   res.render('home');
 })
 
-app.get('/blog/news', (req, res) => {
+app.get('/news', (req, res) => {
   res.render('news');
 })
 

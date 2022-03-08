@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 # file css
-public/css
+src/public/css
