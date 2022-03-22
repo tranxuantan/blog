@@ -4,10 +4,10 @@ class SiteController {
         res.render('home');
     }
 
-                // [GET] /search
-                search(req, res) {
-                    res.render('search');
-                }
+              // [GET] /search
+              search(req, res) {
+                  res.render('search');
+              }
 
     // [POST] /search
     searchAction(req, res) {
