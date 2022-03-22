@@ -18,7 +18,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,json,scss}" : "prettier --single-quote --trailing-comma all --tab-width 4 --write"
+    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },
   "keywords": [
     "blog",
@@ -31,7 +31,7 @@
     "express-handlebars": "^6.0.2"
   },
   "devDependencies": {
-    "husky": "^7.0.4",
+    "husky": "4",
     "lint-staged": "^12.3.7",
     "morgan": "^1.10.0",
     "node-sass": "^7.0.1",
